@@ -1,0 +1,101 @@
+.part-a
+{
+	width:100px;
+	height:100px;
+	padding: 0;
+	margin: 0;
+	background:red;
+	position:relative;
+	animation:move-a 10s;
+	-moz-animation:move-a 10s;		/* Firefox */
+	-webkit-animation:move-a 10s; 	/* Safari and Chrome */
+	-o-animation:move-a 10s; 		/* Opera */
+	
+}
+
+.part-b
+{
+	width: 100px;
+	height: 100px;
+	background-color: aquamarine;
+	position: relative;
+	animation: move-b 10s linear 6 alternate;
+	-moz-animation: move-b 10s linear 6 alternate;
+	-o-animation: move-b 10s linear 6 alternate;
+	-webkit-animation: move-b 10s linear 6 alternate;
+}
+
+/*实例一：从左向右运动的小方块*/
+@keyframes move-a
+{
+	0%   {top:0px; left:0px; background:red;}
+	25%  {top:0px; left:25%; background:blue;}
+	50%  {top:0px; left:50%; background:yellow;}
+	75%  {top:0px; left:75%; background:green;}
+	100% {top:0px; left:100%; background:red;}
+}
+
+@-moz-keyframes move-a
+{
+	0%   {top:0px; left:0px; background:red;}
+	25%  {top:0px; left:25%; background:blue;}
+	50%  {top:0px; left:50%; background:yellow;}
+	75%  {top:0px; left:75%; background:green;}
+	100% {top:0px; left:100%; background:red;}
+}
+
+@-o-keyframes move-a
+{
+	0%   {top:0px; left:0px; background:red;}
+	25%  {top:0px; left:25%; background:blue;}
+	50%  {top:0px; left:50%; background:yellow;}
+	75%  {top:0px; left:75%; background:green;}
+	100% {top:0px; left:100%; background:red;}
+}
+
+@-webkit-keyframes move-a
+{
+	0%   {top:0px; left:0px; background:red;}
+	25%  {top:0px; left:25%; background:blue;}
+	50%  {top:0px; left:50%; background:yellow;}
+	75%  {top:0px; left:75%; background:green;}
+	100% {top:0px; left:100%; background:red;}
+}
+
+/*实例二：一个从左向右匀速运动的循环6次且轮流反向的小方块*/
+
+@keyframes move-b
+{
+	0%{top: 0px;left: 0%;background-color: aqua;}
+	25%{top: 0px;left: 25%;background-color: bisque;}
+	50%{top: 0px;left: 50%;background-color: blue;}
+	75%{top: 0px;left: 75%;background-color:yellow;}
+	100%{top: 0px;left: 100%;background-color: violet;}
+}
+
+@-moz-keyframes move-b
+{
+	0%{top: 0px;left: 0%;background-color: aqua;}
+	25%{top: 0px;left: 25%;background-color: bisque;}
+	50%{top: 0px;left: 50%;background-color: blue;}
+	75%{top: 0px;left: 75%;background-color:yellow;}
+	100%{top: 0px;left: 100%;background-color: violet;}
+}
+
+@-o-keyframes move-b
+{
+	0%{top: 0px;left: 0%;background-color: aqua;}
+	25%{top: 0px;left: 25%;background-color: bisque;}
+	50%{top: 0px;left: 50%;background-color: blue;}
+	75%{top: 0px;left: 75%;background-color:yellow;}
+	100%{top: 0px;left: 100%;background-color: violet;}
+}
+
+@-webkit-keyframes move-b
+{
+	0%{top: 0px;left: 0%;background-color: aqua;}
+	25%{top: 0px;left: 25%;background-color: bisque;}
+	50%{top: 0px;left: 50%;background-color: blue;}
+	75%{top: 0px;left: 75%;background-color:yellow;}
+	100%{top: 0px;left: 100%;background-color: violet;}
+}
