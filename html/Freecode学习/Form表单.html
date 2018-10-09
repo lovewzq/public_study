@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form表单</title>
+</head>
+
+<body>
+	<ul>
+		<li>
+			<h3>常见表单</h3>
+			<form>
+				<input type="text"><!--文本框-->
+				<button type="submit">提交</button>
+			</form>
+		</li>
+		<li>
+			<h3>强制文本</h3>
+			<form>
+				<input type="text" required>
+				<button type="submit">提交</button>
+				<!--若需要文本框内必须有文字才能提交，则需要加入"required"-->
+			</form>
+		</li>
+		<li>
+			<h3>单选按钮</h3>
+			<form>
+				<label><input type="radio" name="num">First</label>
+				<label><input type="radio" name="num">Second</label>
+				<!--name属性的属性值相同-->
+			</form>
+		</li>
+		<li>
+			<h3>复选按钮</h3>
+			<form>
+				<label><input type="checkbox" name="num">First</label>
+				<label><input type="checkbox" name="num">Second</label>
+			</form>
+		</li>
+	</ul>
+	
+</body>
+</html>
