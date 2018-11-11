@@ -1,0 +1,12 @@
+import turtle as t
+t.fd(100)
+t.right(60)
+t.fd(100)
+t.right(60)
+t.fd(100)
+t.right(60)
+t.fd(100)
+t.right(60)
+t.fd(100)
+t.right(60)
+t.fd(100)
