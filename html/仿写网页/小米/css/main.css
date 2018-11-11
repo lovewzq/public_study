@@ -1,0 +1,78 @@
+html body{
+    margin: 0;
+    padding:0;
+    border: 0;
+    min-width: 1400px;
+    width: 100%;
+}
+a{  text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    max-width: 1400px;
+    /*margin: 0 auto;*/
+}
+.header{
+    height: 40px;
+    background-color:black;
+}
+.nav .nav-left{
+    margin-left: 100px;
+}
+.nav .nav-left a{
+    float: left;
+    text-decoration: none;
+    color:#C0C0C0	;
+    margin-top: 12px;
+    margin-left:2px;
+    font-size: 12px;
+}
+.nav .nav-left a:hover{
+    color: white;
+}
+.nav .nav-left span{
+    float: left;
+}
+.nav .nav-right{
+    margin-right: 130px;
+}
+.nav .nav-right a{
+    float: right;
+    text-decoration: none;
+    color:#C0C0C0	;
+    margin-top: 12px;
+    font-size:12px;
+}
+.nav .nav-right a:hover{
+    color: white;
+}
+.nav .nav-right span{
+    float: right;
+}
+
+.nav-image{
+    height: 100px;
+}
+.head-logo a{
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.head-logo .logo{
+    float: left;
+    margin-left: 20px;
+}
+.nav-image ul li{
+    float: left;
+    margin-top: 26px;
+    margin-left: 15px;
+}
+/*
+.logo-imga{
+    height: 100px;
+}
+.logo-imgb{
+    height: 100px;
+}*/
