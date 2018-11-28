@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "天气预测", "天气预测\天气预测.pyproj", "{BA2A523E-D015-4ED5-B935-3DF07FD9C55C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA2A523E-D015-4ED5-B935-3DF07FD9C55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2A523E-D015-4ED5-B935-3DF07FD9C55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {782315BC-8D80-441E-8B4F-84B70FA22AF2}
+	EndGlobalSection
+EndGlobal
