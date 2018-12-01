@@ -11,8 +11,6 @@ def Skip(step):
 def Wu(width):
     for i in range(5):
         t.fd(width)
-        #Skip(20)
-        t.fd(width)
         t.right(144)
 Skip(-200)
 Wu(200)
