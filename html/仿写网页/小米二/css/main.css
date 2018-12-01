@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #C0C0C0;
+}
+/*整体布局：三大块*/
+.container{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sep{
+    margin: 0.5em;
+    color: #424242;
+}
+.cart-mini{
+    position: relative;
+    z-index: 32;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+}
+.iconfont{
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -4px;
+}
+.site-topbar{
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+.site-topbar a{
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.topbar-nav{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.topbar-cart{
+    width: 120px;
+    margin-left: 15px;
+}
+
+.topbar-info{
+    line-height: 40px;
+}
