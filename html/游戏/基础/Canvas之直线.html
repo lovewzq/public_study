@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Canvas绘图</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <canvas id="canvas"></canvas>
+    
+</body>
+<script>
+    //画布初始
+
+    var cvs=document.getElementById("canvas")
+    cvs.width=400
+    cvs.height=400
+
+    var ctx=cvs.getContext("2d")
+
+    //ctx.move(x,y)
+    //屏幕左上角为(0,0)横为：x 纵为：y
+
+
+    //绘制长方形
+    ctx.beginPath()
+    ctx.moveTo(10,10)
+    ctx.lineTo(70,10)
+    ctx.lineTo(70,40)
+    ctx.lineTo(10,40)
+    ctx.lineTo(10,10)
+
+    ctx.fillStyle="red"
+    ctx.fill()
+    ctx.closePath()
+
+    //绘制三角形
+    ctx.beginPath()
+    ctx.moveTo(100,10)
+    ctx.lineTo(180,10)
+    ctx.lineTo(180,50)
+    ctx.lineTo(100,10)
+    ctx.fillStyle="green"
+    ctx.fill()
+
+    //绘制七巧板
+    ctx.beginPath()
+    ctx.moveTo(200,200)
+    ctx.lineTo(400,200)
+    ctx.lineTo(200,400)    
+    ctx.lineTo(200,200)
+    ctx.stroke()
+    ctx.closePath()
+    ctx.beginPath()
+    ctx.moveTo(400,200)
+    ctx.lineTo(400.400)
+    ctx.lineTo(200,400)
+    ctx.stroke()
+    ctx.closePath()
+
+
+    
+</script>
+</html>
