@@ -1,7 +1,7 @@
 import turtle as t 
 
 t.setup(600,600)
-t.speed(0)
+t.speed(5)
 
 #t.mode("stantard")
 
