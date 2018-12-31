@@ -7,7 +7,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 host=socket.gethostname()
 
-s.bind(('host',13142))
+s.bind((host,13142))
 
 s.listen(5)
 
