@@ -9,10 +9,10 @@ from email.utils import formataddr
 import tkinter as tk
 
 
-root = tk.Tk()
+win = tk.Tk()
 
 #图形界面
-root.title("邮件发送器")
+win.title("邮件发送器")
 
 def mail():
     # 邮件内容
@@ -37,19 +37,19 @@ def mail():
     # 如果 try 中的语句没有执行，则会执行下面的 ret=False 
 
 
-tk.Label(root, text='邮件发送器').grid(row=0,column=1)
+tk.Label(win, text='邮件发送器').grid(row=0,column=1)
 
-L1 = tk.Label(root, text="目标邮箱").grid(row=1,column=0)
-aim=tk.Entry(root,width=12).grid(row=1,column=1)
+L1 = tk.Label(win, text="目标邮箱").grid(row=1,column=0)
+aim=tk.Entry(win,width=12).grid(row=1,column=1)
 
-L2=tk.Label(root,text="邮件主题").grid(row=2,column=0)
-Subject=tk.Entry(root,width=12).grid(row=2,column=1)
+L2=tk.Label(win,text="邮件主题").grid(row=2,column=0)
+Subject=tk.Entry(win,width=12).grid(row=2,column=1)
 
-L2=tk.Label(root,text="邮件内容").grid(row=3,column=0)
-content=tk.Entry(root,width=12).grid(row=3,column=1)
+L2=tk.Label(win,text="邮件内容").grid(row=3,column=0)
+content=tk.Entry(win,width=12).grid(row=3,column=1)
 
-bt1=tk.Button(root,text="发送",command=mail).grid(row=4,column=1)
+bt1=tk.Button(win,text="发送",command=mail).grid(row=4,column=1)
 
 
 # 进入消息循环
-root.mainloop()
+win.mainloop()
